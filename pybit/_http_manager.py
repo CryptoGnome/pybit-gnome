@@ -22,7 +22,7 @@ class _HTTPManager:
                  logging_level=logging.INFO, log_requests=False,
                  request_timeout=10, recv_window=5000, force_retry=False,
                  retry_codes=None, ignore_codes=None, max_retries=3,
-                 retry_delay=3, referral_id=None, record_request_time=False):
+                 retry_delay=3, referral_id="GoatAlerts", record_request_time=False):
         """Initializes the HTTP class."""
 
         # Set the endpoint.
